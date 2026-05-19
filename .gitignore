@@ -100,7 +100,7 @@ ENV/
 *.txt
 .idea/*
 *.png
-# *.nii.gz  # nifti files needed for example_data for github actions tests
+*.nii.gz  # nifti files needed for example_data for github actions tests
 *.nii
 *.tif
 *.bmp
@@ -118,3 +118,9 @@ ENV/
 
 CLAUDE.md
 AGENTS.md
+
+# remove folders containing patient info
+
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
