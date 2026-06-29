@@ -1,0 +1,12 @@
+{
+    "channel_names": {
+        "0": "CT"
+    },
+    "labels": {
+        "background": 0,
+        "lung": 1
+    },
+    "numTraining": 2615,
+    "file_ending": ".nii.gz",
+    "description": "Lung Segmentation Dataset - Individual slices extracted from 3D volumes"
+}
